@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-around;
+    background-color: #dbb64c;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border: 2px solid #092252;
+}
+
+a {
+    color: #092252;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+
+
