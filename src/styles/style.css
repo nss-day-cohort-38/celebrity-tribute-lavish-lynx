@@ -9,6 +9,10 @@
     align-items: center;
     
 }
+nav > ul {
+    margin: 0;
+    padding: 0%;
+}
 .freddie_logo {
     width: 100px;
 }
@@ -22,9 +26,6 @@ footer {
     justify-content: space-around;
     background-color: #dbb64c;
     padding: 10px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
     border: 2px solid #092252;
 }
 
