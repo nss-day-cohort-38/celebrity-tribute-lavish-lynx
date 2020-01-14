@@ -1,10 +1,24 @@
-aside {
+#freddieKing {
+    border-radius: 7%;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    height: 350px;
+    width: auto;
+}
+
+p {
+    word-spacing: 2px;
+    line-height: 1.2 ;
     text-indent: 5ch;
+    color:  rgb(150, 142, 253);
+    text-shadow: 1px 1px black;
 }
 
 #quote {
     justify-content: flex-end;
     color: goldenrod;
+    text-shadow: 2px 2.5px black;
 }
 
 #signature {
