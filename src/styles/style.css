@@ -1,0 +1,17 @@
+.nav_bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 5px solid black;
+    background-color: #dbb64c;
+    align-items: center;
+    
+}
+.freddie_logo {
+    width: 100px;
+}
+.freddie_body {
+    background-color: #092252
+}
