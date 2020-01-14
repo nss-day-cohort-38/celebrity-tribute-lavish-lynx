@@ -1,0 +1,94 @@
+.nav_bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 5px solid black;
+    background-color: #dbb64c;
+    align-items: center;
+    
+}
+.freddie_logo {
+    width: 100px;
+}
+.freddie_body {
+    background-color: #092252;
+}
+
+footer {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-around;
+    background-color: #dbb64c;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border: 2px solid #092252;
+}
+
+a {
+    color: #092252;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+
+
+
+
+.bohemian_image {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+body {
+    color: #dbb64c;
+}
+
+html {
+    background-color: #092252;
+}
+
+.trailer {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.tour_image {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+}
+
+.movie {
+    border-bottom: 5px solid #dbb64c;
+    margin-bottom: 75px;
+   
+}
+
+.tour {
+    margin-bottom: 50px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
