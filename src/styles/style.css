@@ -4,8 +4,8 @@ header {
 }
 
 body {
-    display: flex;
-    border: dotted;
+    display: ;
+    border: ;
 }
 
 footer {
@@ -14,8 +14,14 @@ footer {
     align-items: flex-end;
     color: #092252;
     background-color:#dbb64c;
+    border: solid 2px #092252;
     padding: 10px;
+    margin-right: 0;
+    margin-left: 0;
     margin-bottom: 0;
-    border: 
+
 }
 
+body > footer > a * 2 {
+    color: #092252;
+}
