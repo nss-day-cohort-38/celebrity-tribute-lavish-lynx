@@ -24,6 +24,7 @@ main {
     width: 30%;
     height: 30%;
     align-self: center;
+    margin-top: 5px;
 }
 
 .names {
@@ -31,71 +32,71 @@ main {
     font-size: 28px;
     text-shadow: 1px 2px 2px black;
     align-self: center;
+    margin-bottom: 10px;
 }
 
 .life {
-    color: #dbb64c;
-    text-shadow: 1px 2px 2px black;
-    border-top: 3px solid black;
+    /* color: #dbb64c; */
+    text-shadow: 1px 0px 2px black;
+    /* border-top: 3px solid black; */
     border-bottom: 3px solid black;
-    align-self: center;
 }
 
 .family {
-    color: #dbb64c;
-    text-shadow: 1px 2px 2px black;
+    /* color: #dbb64c; */
+    text-shadow: 1px 0px 2px black;
     border-bottom: 3px solid black;
-    width: 45%;
-    align-self: center;
+    /* width: 45%; */
+    /* align-self: center; */
 }
 
 .partners {
-    color: #dbb64c;
-    text-shadow: 1px 2px 2px black;
+    /* color: #dbb64c; */
+    text-shadow: 1px 0px 2px black;
     border-bottom: 3px solid black;
-    width: 45%;
-    align-self: center;
+    /* width: 45%; */
+    /* align-self: center; */
 }
 
 .friends {
-    color: #dbb64c;
-    text-shadow: 1px 2px 2px black;
-    width: 45%;
-    align-self: center;
+    /* color: #dbb64c; */
+    text-shadow: 1px 0px 2px black;
+    /* width: 45%; */
+    /* align-self: center; */
 }
 
 .parents_pic {
-    width: 75%;
-    height: 75%;
+    width: 40%;
+    height: 40%;
     margin-bottom: 10px;
     margin-right: 10px;
 }
 
 .sister_pic {
-    width: 75%;
-    height: 75%;
+    width: 50%;
+    height: 50%;
     margin-bottom: 10px;
 }
 
 
 .mary_pic {
-    width: 75%;
-    height: 75%;
+    width: 50%;
+    height: 50%;
 }
 
 .jim_pic {
-    width: 75%;
-    height: 75%;
+    width: 50%;
+    height: 50%;
 }
 
 .kenny_pic {
-    width: 75%;
-    height: 75%;
+    width: 50%;
+    height: 50%;
 }
 
 .queen_pic {
-    width: 75%;
-    height: 75%;
+    width: 50%;
+    height: 50%;
 }
 
 footer {
@@ -121,6 +122,16 @@ body {
     margin-right: 20px;
 }
 
+li {
+    color: rgb(150, 142, 253);
+}
 
+h3 {
+    color:#dbb64c;
+    text-decoration: underline;
+}
 
+section li {
+    text-shadow: 1px 2px 2px black;
+}
 
