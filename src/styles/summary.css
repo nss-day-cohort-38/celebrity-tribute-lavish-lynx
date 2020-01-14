@@ -1,12 +1,26 @@
+body {
+    margin: 0px;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 111px;
+    color: #8d6e19;
+    text-shadow: .5px .3px #dbb64c;
+    margin: unset;
+}
+
 #freddieKing {
     border-radius: 7%;
     float: left;
     border-color: #dbb64c;
-    padding-right: 15px;
-    padding-bottom: 1px;
+    padding-right: 20px;
+    padding-bottom: 8px;
     height: 350px;
     width: auto;
-    box-shadow: -4px 4px rgb(41, 39, 90);
 }
 
 p {
@@ -19,7 +33,7 @@ p {
 
 h2 {
     justify-content: flex-end;
-    color: goldenrod;
+    color: #dbb64c;
     text-shadow: 2px 2.5px black;
 }
 
