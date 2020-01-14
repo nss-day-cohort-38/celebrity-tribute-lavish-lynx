@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 111px;
+    color: #8d6e19;
+    text-shadow: .5px .3px #dbb64c;
+    margin: unset;
+}
+
+#freddieKing {
+    border-radius: 7%;
+    float: left;
+    border-color: #dbb64c;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    height: 350px;
+    width: auto;
+}
+
+p {
+    word-spacing: 2px;
+    line-height: 1.2;
+    text-indent: 5ch;
+    color: rgb(150, 142, 253);
+    text-shadow: 1px 1px black;
+}
+
+h2 {
+    justify-content: flex-end;
+    color: #dbb64c;
+    text-shadow: 2px 2.5px black;
+}
+
+main {
+    padding-bottom: 15%;
+}
+
+#signature {
+    padding-top: 5%;
+    flex-direction: row-reverse;
+    position: absolute;
+    right: 150px;
+    width: 200px;
+    height: 120px;
+}
