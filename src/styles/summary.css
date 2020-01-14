@@ -1,27 +1,35 @@
 #freddieKing {
     border-radius: 7%;
     float: left;
-    padding-right: 20px;
+    border-color: #dbb64c;
+    padding-right: 15px;
     padding-bottom: 1px;
     height: 350px;
     width: auto;
+    box-shadow: -4px 4px rgb(41, 39, 90);
 }
 
 p {
     word-spacing: 2px;
-    line-height: 1.2 ;
+    line-height: 1.2;
     text-indent: 5ch;
-    color:  rgb(150, 142, 253);
+    color: rgb(150, 142, 253);
     text-shadow: 1px 1px black;
 }
 
-#quote {
+h2 {
     justify-content: flex-end;
     color: goldenrod;
     text-shadow: 2px 2.5px black;
 }
 
+main {
+    padding-bottom: 15%;
+}
+
 #signature {
+    padding-top: 5%;
+    flex-direction: row-reverse;
     position: absolute;
     right: 150px;
     width: 200px;
