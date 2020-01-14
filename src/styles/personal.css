@@ -1,0 +1,126 @@
+.nav_bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 5px solid black;
+    background-color: #dbb64c;
+    align-items: center;
+}
+.freddie_logo {
+    width: 100px;
+}
+.freddie_body {
+    background-color: #092252;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.baby_pic {
+    width: 30%;
+    height: 30%;
+    align-self: center;
+}
+
+.names {
+    color: #dbb64c;
+    font-size: 28px;
+    text-shadow: 1px 2px 2px black;
+    align-self: center;
+}
+
+.life {
+    color: #dbb64c;
+    text-shadow: 1px 2px 2px black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    align-self: center;
+}
+
+.family {
+    color: #dbb64c;
+    text-shadow: 1px 2px 2px black;
+    border-bottom: 3px solid black;
+    width: 45%;
+    align-self: center;
+}
+
+.partners {
+    color: #dbb64c;
+    text-shadow: 1px 2px 2px black;
+    border-bottom: 3px solid black;
+    width: 45%;
+    align-self: center;
+}
+
+.friends {
+    color: #dbb64c;
+    text-shadow: 1px 2px 2px black;
+    width: 45%;
+    align-self: center;
+}
+
+.parents_pic {
+    width: 75%;
+    height: 75%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.sister_pic {
+    width: 75%;
+    height: 75%;
+    margin-bottom: 10px;
+}
+
+
+.mary_pic {
+    width: 75%;
+    height: 75%;
+}
+
+.jim_pic {
+    width: 75%;
+    height: 75%;
+}
+
+.kenny_pic {
+    width: 75%;
+    height: 75%;
+}
+
+.queen_pic {
+    width: 75%;
+    height: 75%;
+}
+
+footer {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-around;
+    background-color: #dbb64c;
+    padding: 10px;
+    border: 3px solid black;
+    margin-top: 15px;
+}
+
+a {
+    color: #092252;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
