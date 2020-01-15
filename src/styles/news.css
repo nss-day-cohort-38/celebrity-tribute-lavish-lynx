@@ -1,0 +1,130 @@
+.nav_bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 5px solid black;
+    background-color: #dbb64c;
+    align-items: center;
+    
+}
+.freddie_logo {
+    width: 100px;
+}
+.freddie_body {
+    background-color: #092252;
+}
+
+footer {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-around;
+    background-color: #dbb64c;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border: 2px solid #092252;
+}
+
+a {
+    color: #092252;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+
+
+
+
+html {
+    background-color: #092252;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    color: #dbb64c;
+}
+
+iframe {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.tour_image {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+
+
+.bohemian_image {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+
+.benefit_image {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+
+.movie {
+    border-bottom: 3px solid black;
+    margin-bottom: 50px;
+   
+}
+
+.tour {
+    border-bottom: 3px solid black;
+    margin-bottom: 50px;
+}
+
+.benefit {
+    margin-bottom: 50px;
+}
+
+p {
+    color:  rgb(150, 142, 253);
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.dates {
+    color: lime;
+}
+
+em {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
