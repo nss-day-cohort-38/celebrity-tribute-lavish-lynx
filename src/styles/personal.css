@@ -33,7 +33,8 @@
     width: 30%;
     height: 30%;
     align-self: center;
-    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-top: 0;
     /* border: 1px dotted red; */
 }
 
@@ -42,7 +43,7 @@
     font-size: 28px;
     text-shadow: 1px 2px 2px black;
     align-self: center;
-    margin-bottom: 20px;
+    margin-top: 5px;
     /* border: 1px dotted red; */
 }
 
@@ -62,10 +63,6 @@
     margin-bottom: 20px;
     /* border: 1px dotted red; */
 }
-
-/* .life_list li {
-    align-self: center;
-} */
 
 /* Family Section */
 
@@ -87,7 +84,7 @@
     display: inline;
     float: right;
     width: 65%;
-    /* margin-top: 20px; */
+    margin-top: 10px;
     /* align-self: flex-end; */
     /* justify-content: center; */
     /* border: 1px dotted red; */ 
