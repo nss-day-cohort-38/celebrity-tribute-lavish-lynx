@@ -70,8 +70,8 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    height: 75%;
+    width: 40%;
+    height: 40%;
 }
 
 
@@ -80,8 +80,8 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    height: 75%;
+    width: 40%;
+    height: 40%;
 }
 
 .benefit_image {
@@ -89,18 +89,18 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    height: 75%;
+    width: 40%;
+    height: 40%;
 }
 
 .movie {
-    border-bottom: 5px solid #dbb64c;
+    border-bottom: 3px solid black;
     margin-bottom: 50px;
    
 }
 
 .tour {
-    border-bottom: 5px solid #dbb64c;
+    border-bottom: 3px solid black;
     margin-bottom: 50px;
 }
 
@@ -110,12 +110,21 @@ iframe {
 
 p {
     color:  rgb(150, 142, 253);
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .dates {
     color: lime;
 }
 
-.brian {
-    padding: 25px;
+em {
+    display: flex;
+    justify-content: center;
 }
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
