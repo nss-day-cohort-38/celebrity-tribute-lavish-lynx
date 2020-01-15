@@ -1,3 +1,5 @@
+/* Header Section */
+
 .nav_bar {
     list-style-type: none;
     display: flex;
@@ -7,7 +9,11 @@
     border-bottom: 5px solid black;
     background-color: #dbb64c;
     align-items: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
+
 .freddie_logo {
     width: 100px;
 }
@@ -15,105 +21,183 @@
     background-color: #092252;
 }
 
-main {
+/* Name Section */
+
+.name_section {
     display: flex;
     flex-direction: column;
+    /* border: 1px dotted red; */
 }
 
-.baby_pic {
+.name_pic {
     width: 30%;
     height: 30%;
     align-self: center;
     margin-top: 5px;
+    /* border: 1px dotted red; */
 }
 
-.names {
+.name_text {
     color: #dbb64c;
     font-size: 28px;
     text-shadow: 1px 2px 2px black;
     align-self: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    /* border: 1px dotted red; */
 }
 
-.life {
-    /* color: #dbb64c; */
+/* Major Life Events Section */
+
+.life_section {
     text-shadow: 1px 0px 2px black;
-    /* border-top: 3px solid black; */
+    border-top: 3px solid black;
     border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px dotted red; */
 }
 
-.family {
-    /* color: #dbb64c; */
+.life_header {
+    align-self: center;
+    margin-bottom: 20px;
+    /* border: 1px dotted red; */
+}
+
+/* .life_list li {
+    align-self: center;
+} */
+
+/* Family Section */
+
+.family_section {
+    display: flex;
+    flex-direction: column;
     text-shadow: 1px 0px 2px black;
     border-bottom: 3px solid black;
-    /* width: 45%; */
-    /* align-self: center; */
+    /* border: 1px dotted red; */
 }
 
-.partners {
-    /* color: #dbb64c; */
-    text-shadow: 1px 0px 2px black;
-    border-bottom: 3px solid black;
-    /* width: 45%; */
-    /* align-self: center; */
+.family_header {
+    align-self: center;
+    margin-bottom: 0;
+    /* border: 1px dotted red; */
 }
 
-.friends {
-    /* color: #dbb64c; */
-    text-shadow: 1px 0px 2px black;
-    /* width: 45%; */
-    /* align-self: center; */
+.family_list li {
+    display: inline;
+    float: right;
+    width: 65%;
+    padding: 10px;
+    margin-top: 60px;
+    /* align-self: flex-end; */
+    /* justify-content: center; */
+    /* border: 1px dotted red; */   
 }
 
 .parents_pic {
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
+    margin-top: 0;
     margin-bottom: 10px;
-    margin-right: 10px;
+    /* align-self: flex-start; */
+    /* justify-content: center; */
+    /* border: 1px dotted red; */
 }
 
 .sister_pic {
-    width: 50%;
-    height: 50%;
-    margin-bottom: 10px;
+    width: 30%;
+    height: 30%;
+    /* align-self: flex-start; */
+    /* justify-content: center; */
+    /* border: 1px dotted red; */
 }
 
+/* Partners Section */
+
+.partners_section {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 1px 0px 2px black;
+    border-bottom: 3px solid black;
+    /* border: 1px dotted red; */
+}
+
+.partners_header {
+    align-self: center;
+    margin-bottom: 0;
+    /* border: 1px dotted red; */
+}
+
+.partners_list li {
+    display: inline;
+    float: right;
+    width: 65%;
+    margin-top: 20px;
+    /* align-self: flex-end; */
+    /* justify-content: center; */
+    /* border: 1px dotted red; */ 
+}
 
 .mary_pic {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 50px;
+    /* align-self: flex-start; */
+    /* justify-content: center; */
+    /* border: 1px dotted red; */
 }
 
 .jim_pic {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
+    /* align-self: flex-start; */
+    /* justify-content: center; */
+    /* border: 1px dotted red; */
+}
+
+/* Friends Section */
+
+.friends_section {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 1px 0px 2px black;
+    /* border: 1px dotted red; */
+}
+
+.friends_header {
+    align-self: center;
+    margin-bottom: 0;
+    /* border: 1px dotted red; */
+}
+
+.friends_list li {
+    display: inline;
+    float: right;
+    width: 65%;
+    margin-top: 30px;
+    /* align-self: flex-end; */
+    /* justify-content: center; */
+    /* border: 1px dotted red; */ 
 }
 
 .kenny_pic {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 10px;
+    /* align-self: flex-start; */
+    /* justify-content: center; */
+    /* border: 1px dotted red; */
 }
 
 .queen_pic {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
+    /* align-self: flex-start; */
+    /* justify-content: center; */
+    /* border: 1px dotted red; */
 }
 
-footer {
-    display: flex;
-    align-self: flex-end;
-    justify-content: space-around;
-    background-color: #dbb64c;
-    padding: 10px;
-    border: 3px solid black;
-    margin-top: 15px;
-}
-
-a {
-    color: #092252;
-    font-weight: bold;
-    font-family: "Times New Roman";
-}
+/* Styling Across Name, Life Events, Family, Partners, and Friends Sections */
 
 body {
     margin-top: 0;
@@ -134,4 +218,24 @@ h3 {
 section li {
     text-shadow: 1px 2px 2px black;
 }
+
+/* Footer Section */
+
+footer {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-around;
+    background-color: #dbb64c;
+    padding: 10px;
+    border: 3px solid black;
+    margin-top: 15px;
+}
+
+a {
+    color: #092252;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+
 
